@@ -24,7 +24,7 @@ To install the SDK, simply use [Composer](https://getcomposer.org/):
 [badge-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [badge-build]: https://img.shields.io/travis/mwesterink/servicechecks.svg?style=flat-square
 [badge-downloads]: https://img.shields.io/packagist/dt/mwesterink/servicechecks.svg?style=flat-square
-[badge-version]: https://img.shields.io/travis/php-v/mwesterink/servicechecks.svg?style=flat-square
+[badge-version]: https://img.shields.io/travis/php-v/symfony/symfony.svg?style=flat-square
 
 [license]: https://github.com/cmpayments/payments-sdk-php/blob/master/LICENSE
 [build]: https://travis-ci.org/mwesterink/servicechecks

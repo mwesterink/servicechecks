@@ -6,7 +6,7 @@
 [![Total Downloads][badge-downloads]][downloads]
 [![Code quality][badge-grade]][grade]
 
-Integrating the CMPayments solutions for online payments with your application is easy using this Payment Link SDK for PHP.
+
 
 ## Installation
 To install the SDK, simply use [Composer](https://getcomposer.org/):
@@ -28,7 +28,7 @@ To install the SDK, simply use [Composer](https://getcomposer.org/):
 [badge-version]: https://img.shields.io/travis/php-v/symfony/symfony.svg?style=flat-square
 [badge-grade]: https://img.shields.io/codacy/grade/e27821fb6289410b8f58338c7e0bc686.svg?style=flat-square
 
-[license]: https://github.com/cmpayments/payments-sdk-php/blob/master/LICENSE
+[license]: https://github.com/mwesterink/servicechecks/blob/master/LICENSE
 [build]: https://travis-ci.org/mwesterink/servicechecks
 [version]: https://travis-ci.org/mwesterink/servicechecks
 [downloads]: https://packagist.org/packages/mwesterink/servicechecks

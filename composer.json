@@ -1,0 +1,29 @@
+{
+  "name": "mwesterink/servicechecks",
+  "description": "Just a repo for testing online tools such as travis, codacy, scrutinizer and so on",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michel Westerink",
+      "homepage": "https://github.com/mwesterink"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/mwesterink/servicechecks/issues"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.2",
+    "jakub-onderka/php-parallel-lint": "^1.0",
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mwesterink\\ServiceChecks\\": "src/",
+      "Mwesterink\\ServiceChecks\\Tests\\": "tests/"
+    }
+  }
+}

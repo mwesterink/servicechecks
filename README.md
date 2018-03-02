@@ -13,13 +13,13 @@ To install the SDK, simply use [Composer](https://getcomposer.org/):
 ```composer require mwesterink/ServiceChecks```
 
 ### Requirements
- - PHP 5.6.4+
+ - PHP ^7.1
 
  
 ### Dependencies
   - [PHP_Codesniffer](https://github.com/squizlabs/php_codesniffer) is used to inspect the code
   - [php-parallel-lint](https://github.com/jakub-onderka/php-parallel-lint) check syntax of PHP files faster than serial check
-  - [phpunit/phpunit](https://github.com/sphpunit/phpunit) small note, Phpunit ^6 (6.5.7) is requires php ^7.0
+  - [phpunit/phpunit](https://github.com/sphpunit/phpunit) phpunit for testing
 
 [badge-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [badge-build]: https://img.shields.io/travis/mwesterink/servicechecks.svg?style=flat-square

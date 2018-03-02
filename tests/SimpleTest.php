@@ -5,7 +5,6 @@ namespace Mwesterink\ServiceChecks\Tests;
 use PHPUnit\Framework\TestCase;
 use Mwesterink\ServiceChecks\Client;
 
-
 /**
  * Class SimpleTest
  *

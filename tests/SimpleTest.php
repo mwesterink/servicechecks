@@ -11,7 +11,7 @@ use Mwesterink\ServiceChecks\Client;
  * @package Mwesterink\ServiceChecks\Tests
  * @author  Michel Westerink <michel.westerink@cmtelecom.com>
  */
-class SimpleTest extends TestCase
+class SimpleTest extends \PHPUnit_Framework_TestCase
 {
 
     /**

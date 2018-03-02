@@ -6,10 +6,6 @@
 [![Software License][badge-license]][license]
 [![Total Downloads][badge-downloads]][downloads]
 
-
-
-
-
 ## Installation
 To install the SDK, simply use [Composer](https://getcomposer.org/):
 

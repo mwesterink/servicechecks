@@ -2,15 +2,13 @@
 
 namespace Mwesterink\ServiceChecks\Tests;
 
-use PHPUnit\Framework\TestCase;
-
 /**
  * Class SimpleTest
  *
  * @package Mwesterink\ServiceChecks\Tests
  * @author  Michel Westerink <michel.westerink@cmtelecom.com>
  */
-class SimpleTest extends TestCase
+class SimpleTest extends \PHPUnit_Framework_TestCase
 {
 
     /**

@@ -2,6 +2,8 @@
 
 namespace Mwesterink\ServiceChecks\Tests;
 
+use Mwesterink\ServiceChecks\Client;
+
 /**
  * Class SimpleTest
  *
@@ -12,12 +14,26 @@ class SimpleTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * Just a simple test function
+     * Success flow
      */
-    public function testSimpleTestFunction()
+    public function testSimpleSumSuccessFlowFunction()
     {
-        $varOne = 'Test';
-        $varTwo = 'Test';
-        $this->assertEquals($varOne, $varTwo);
+        $varOne = 1;
+        $varTwo = 2;
+        $client = new Client();
+        $sum = $client->sum($varOne, $varTwo);
+        $this->assertEquals($sum, ($varOne + $varTwo));
+    }
+
+    /**
+     * Sum with expected exception
+     */
+    public function testSimpleSumExpectedExceptionFlowFunction()
+    {
+        $varOne = 1;
+        $varTwo = 'blabla';
+        $client = new Client();
+        $this->expectException(\Exception::class);
+        $client->sum($varOne, $varTwo);
     }
 }

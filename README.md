@@ -13,7 +13,7 @@ To install the SDK, simply use [Composer](https://getcomposer.org/):
 ```composer require mwesterink/ServiceChecks```
 
 ### Requirements
- - PHP ^7.1
+ - PHP ^7.0
 
  
 ### Dependencies
